@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Cascadia'; 
+    src: url('Cascadia.ttf') format('truetype'); 
+  }
+
+* {
+    font-family: 'Cascadia'
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container, .portfolio, .image {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid grey;
+
+
+}
+
+.header {
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px; 
+  }
+  
+  .header-svg img {
+    width: 50px; 
+    height: auto; 
+  }
+  
+  .header-svg h1 {
+    margin-right: 30px;
+    margin-left: 30px; 
+  }
+
+  
+.container {
+    display: flex;
+    justify-content: start;
+    border: none;
+}
+
+.portfolio {
+    width: 20%;
+}
+
+.image {
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1, h2 {
+    color: black;
+    text-shadow: 1px 1px 4px red, -1px -1px 4px blue, 1px -1px 4px pink, -1px 1px 4px orange;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 15px;
+}
